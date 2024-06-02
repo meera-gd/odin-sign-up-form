@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign-up Form</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="background">
+			<div class="non-footer">
+				<div class="header">
+					<h1><img src="images/odin-lined.png">Odin</h1>
+				</div>
+			</div>
+			<p>
+				Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+			</p>
+		</div>
+		<div class="main">
+			<div class="content">
+				<p>
+					This is not a real online service!
+					You know you need something like this in your life to help you realize your deepest dreams.
+					Sign up <em>now</em> to get started.
+				</p>
+				<p>
+					You <em>know</em> you want to.
+				</p>
+				<form>
+					<div class="form">
+						<h2>Let's do this!</h2>
+						<div class="fields">
+							<div class="field">
+								<label for="first_name">First Name</label>
+								<input id="first_name" name="first_name" type="text">
+							</div>
+							<div class="field">
+								<label for="email_address">Email</label>
+								<input id="email_address" name="email_address" type="email">
+							</div>
+							<div class="field">
+								<label for="password1">Password</label>
+								<input id="password1" name="password" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
+							</div>
+							<div class="field">
+								<label for="last_name">Last Name</label>
+								<input id="last_name" name="last_name" type="text">
+							</div>
+							<div class="field">
+								<label for="phone_number">Phone Number</label>
+								<input id="phone_number" name="phone_number" type="tel" pattern="^[0-9]{10}$">
+							</div>
+							<div class="field">
+								<label for="password2">Confirm Password</label>
+								<input id="password2" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
+							</div>
+						</div>
+					</div>
+					<div class="post-form">
+						<button type="submit">Create Account</button>
+						<p>Already have an account? <a href="#">Log in</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
